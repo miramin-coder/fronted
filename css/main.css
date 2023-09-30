@@ -5,12 +5,28 @@ body{
   letter-spacing: 0.5px;
 }
 
+*:focus{
+outline: 2px dotted #ff7500;
+outline-offset: 3px;
+}
 
 .site-header {
   display: flex;
   justify-content:space-between ;
   align-items: center;
 background-color: white;
+}
+
+.logo-link{
+transition: opacity 0.4s ease
+}
+
+.logo-link:hover{
+opacity: 0.8em;
+}
+
+.logo-link:active{
+opacity: 0.6;
 }
 
 .site-header-actions{
@@ -31,6 +47,15 @@ letter-spacing: 1px;
 text-transform: uppercase;
 text-decoration: none;
 color: black;
+transition: color 0.4 ease;
+}
+
+.sitenav-link:hover{
+color: #ff7500;
+}
+
+.sitenav-link:active{
+opacity: 0.6;
 }
 
 .main-link{
@@ -146,6 +171,18 @@ display: flex;
 align-items: center;
 }
 
+.socials a{
+  color: #252420;
+}
+
+.socials a:hover{
+  color: #ff7500;
+}
+
+.socials a:active{
+  opacity: 0.6;
+}
+
 .site-hr{
 background-color: rgba(37, 36, 32, 0.5);
 height: 2px;
@@ -163,4 +200,12 @@ line-height: 19px;
 .site-footer-link-list a{
 text-decoration: none;
 color: #252420;
+}
+
+.site-footer-link-list a:hover{
+color: #ff7500;
+}
+
+.site-footer-link-list a:active{
+opacity: 0.6;
 }
