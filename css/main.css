@@ -7,11 +7,20 @@ body{
 
 
 .site-header {
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
 background-color: white;
+}
+
+.site-header-actions{
+display: flex;
+align-items: center;
 }
 
 .sitenav-list{
 list-style: none;
+display: flex;
 }
 
 .sitenav-link{
@@ -32,6 +41,9 @@ color: #fff;
 text-decoration: none;
 }
 .hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 background-color: #252420;
 color: #fff
 }
@@ -55,6 +67,12 @@ background-color: #ff7500;
 font-size: 40px;
 line-height: 1.2;
 font-family: "Roboto Condensed","Arial",sans-serif;
+}
+
+.features-list{
+display: flex;
+list-style: none;
+justify-content: space-between;
 }
 
 .features-heading{
@@ -83,6 +101,9 @@ font-family: "Roboto Condensed","Arial",sans-serif;
 }
 
 .promo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 background-color: #252420;
 color: #fff;
 }
@@ -110,13 +131,28 @@ object-fit: cover;
 background-color: #f8f8f8;
 }
 
+.site-footer-top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
 .site-footer ul{
 list-style: none;
+}
+
+.socials{
+display: flex;
+align-items: center;
 }
 
 .site-hr{
 background-color: rgba(37, 36, 32, 0.5);
 height: 2px;
+}
+
+.site-bottom{
+display: flex;
 }
 
 .site-footer-link-list{
